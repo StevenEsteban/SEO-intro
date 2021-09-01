@@ -123,7 +123,7 @@ dfn {
 
 mark {
     background-color: #ff0;
-    color: #000
+    color: rgb(255, 255, 255)
 }
 
 small {
@@ -154,10 +154,6 @@ video {
 audio:not([controls]) {
     display: none;
     height: 0
-}
-
-img {
-    border-style: none
 }
 
 svg:not(:root) {
@@ -271,10 +267,6 @@ canvas {
 }
 
 template {
-    display: none
-}
-
-[hidden] {
     display: none
 }
 
@@ -415,7 +407,7 @@ textarea:focus {
 
 .select select:focus:-moz-focusring {
     color: transparent;
-    text-shadow: 0 0 0 #000
+    text-shadow: 0 0 0 rgb(255, 255, 255)
 }
 
 select[multiple],
@@ -469,19 +461,13 @@ iframe {
     border: 0
 }
 
-img {
-    border: 0;
-    font-style: italic;
-    height: auto;
-    -ms-interpolation-mode: bicubic
-}
-
 svg {
     max-height: 100%
 }
 
 .gm-style img {
-    max-width: none
+    max-width: none;
+    border-style: solid black 10px;
 }
 
 html {
@@ -523,17 +509,9 @@ body {
     text-shadow: none
 }
 
-img::selection {
-    background: 0 0
-}
-
-img::-moz-selection {
-    background: 0 0
-}
-
 .btn {
     background-image: none;
-    border-radius: 0;
+    border-radius: 5px;
     border-style: solid;
     border-width: 2px;
     cursor: pointer;
@@ -644,7 +622,7 @@ fieldset[disabled] a.btn {
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 900px;
+    max-width: 1100px;
     width: 90%
 }
 
@@ -653,7 +631,7 @@ iframe,
 img,
 svg,
 video {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .logo {
@@ -680,7 +658,7 @@ video {
     border-right: 0;
     border-left: 0;
     border-radius: 0;
-    color: #2d2b31;
+    color: #ffffff;
     display: block;
     font-family: Karla, Verdana, sans-serif;
     font-size: 1rem;
@@ -703,7 +681,7 @@ select {
 }
 
 select option {
-    background-color: #04456C !important;
+    background-color: #021f35 !important;
     border: 1px solid #e4e4e4;
     color: rgb(255, 255, 255);
     -webkit-appearance: none;
@@ -1063,7 +1041,7 @@ select option {
 .link,
 .link:link,
 .link:visited {
-    color: #2d2b31;
+    color: #ffffff;
     text-decoration: underline;
     -webkit-transition: color .2s ease-out;
     transition: color .2s ease-out
